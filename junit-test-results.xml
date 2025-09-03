@@ -1,0 +1,26 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="58.214768">
+<testsuite name="banking-test.spec.ts" timestamp="2025-09-03T05:13:13.445Z" hostname="chromium" tests="2" failures="0" skipped="0" time="103.886" errors="0">
+<testcase name="Verify Quick Transactions Flow" classname="banking-test.spec.ts" time="48.077">
+<system-out>
+<![CDATA[Global before is running...
+Global afterEach is running...
+
+[[ATTACHMENT|test-results\banking-test-Verify-Quick-Transactions-Flow-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\banking-test-Verify-Quick-Transactions-Flow-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Verify tab names in the homepage" classname="banking-test.spec.ts" time="55.809">
+<system-out>
+<![CDATA[Global before is running...
+Global afterEach is running...
+
+[[ATTACHMENT|test-results\banking-test-Verify-tab-names-in-the-homepage-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\banking-test-Verify-tab-names-in-the-homepage-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

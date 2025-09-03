@@ -1,0 +1,220 @@
+{
+  "config": {
+    "configFile": "F:\\Projects\\VSCODE\\playwright-mcp-automation-framework-poc\\playwright.config.ts",
+    "rootDir": "F:/Projects/VSCODE/playwright-mcp-automation-framework-poc/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 10800000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "json-test-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "junit-test-results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "F:/Projects/VSCODE/playwright-mcp-automation-framework-poc/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "F:/Projects/VSCODE/playwright-mcp-automation-framework-poc/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "banking-test.spec.ts",
+      "file": "banking-test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Verify Quick Transactions Flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 48077,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Global before is running...\n"
+                    },
+                    {
+                      "text": "Global afterEach is running...\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Login to the application",
+                      "duration": 28763
+                    },
+                    {
+                      "title": "Home Page Verification",
+                      "duration": 15662
+                    },
+                    {
+                      "title": "Quick Transaction Flow",
+                      "duration": 1545
+                    },
+                    {
+                      "title": "Transaction History Verification",
+                      "duration": 391
+                    }
+                  ],
+                  "startTime": "2025-09-03T05:13:14.646Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\Projects\\VSCODE\\playwright-mcp-automation-framework-poc\\test-results\\banking-test-Verify-Quick-Transactions-Flow-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "F:\\Projects\\VSCODE\\playwright-mcp-automation-framework-poc\\test-results\\banking-test-Verify-Quick-Transactions-Flow-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e23068cb169b39ba15a1-dabc4c85a7a734914a94",
+          "file": "banking-test.spec.ts",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "title": "Verify tab names in the homepage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 55809,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Global before is running...\n"
+                    },
+                    {
+                      "text": "Global afterEach is running...\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Login to the application",
+                      "duration": 36199
+                    },
+                    {
+                      "title": "Home Page Verification",
+                      "duration": 17182
+                    },
+                    {
+                      "title": "Check that Transfers & Bill Payment tabs are visible",
+                      "duration": 451
+                    }
+                  ],
+                  "startTime": "2025-09-03T05:13:14.681Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\Projects\\VSCODE\\playwright-mcp-automation-framework-poc\\test-results\\banking-test-Verify-tab-names-in-the-homepage-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "F:\\Projects\\VSCODE\\playwright-mcp-automation-framework-poc\\test-results\\banking-test-Verify-tab-names-in-the-homepage-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e23068cb169b39ba15a1-ccbbf44955a6046f7f02",
+          "file": "banking-test.spec.ts",
+          "line": 37,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-09-03T05:13:13.260Z",
+    "duration": 58214.768,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
