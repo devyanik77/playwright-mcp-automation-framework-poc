@@ -1,6 +1,6 @@
-Playwright MCP Server with AI: Build, Refactor & Fix End-to-End Tests Using GitHub Copilot + AI Agents
+**Playwright MCP Server with AI: Build, Refactor & Fix End-to-End Tests Using GitHub Copilot + AI Agents**
 
-Step by Step Approach 1:
+**Step by Step Approach 1:**
 Step1: Let’s install Playwright MCP Server in VS Code using Terminal/Command Line:
 code --add-mcp '{"name":"playwright","command":"npx","args":["@playwright/mcp@latest"]}'
 Step2: Go to VS code, Press Ctrl+Shift+P(WINDOWS)
@@ -12,7 +12,7 @@ Next, Click on “Start” in the settings json file.
 Finally, At the end make sure that Playwright MCP Server is running.
 
 
-Step by Step Approach 2:
+**Step by Step Approach 2:**
 Step1: Create a “.vscode” folder if it is not there in the project
 Next, create “mcp.json” file under .vscode folder.
 Then, Click on “Add Server” button
